@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Woman with facial mask for beauty parlour services">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7f1"/>
+      <stop offset=".44" stop-color="#f7b7c9"/>
+      <stop offset="1" stop-color="#4a174e"/>
+    </linearGradient>
+    <linearGradient id="skin" x1=".2" x2=".8" y1=".08" y2=".94">
+      <stop offset="0" stop-color="#f4c9ae"/>
+      <stop offset=".54" stop-color="#d99878"/>
+      <stop offset="1" stop-color="#8b4b42"/>
+    </linearGradient>
+    <linearGradient id="mask" x1=".1" x2=".9" y1=".02" y2="1">
+      <stop offset="0" stop-color="#fffaf4"/>
+      <stop offset=".58" stop-color="#ecdfe6"/>
+      <stop offset="1" stop-color="#d7bfd1"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="18%" r="62%">
+      <stop offset="0" stop-color="#f4d58d" stop-opacity=".62"/>
+      <stop offset=".48" stop-color="#c15ac4" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#120815" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect width="900" height="1200" fill="url(#glow)"/>
+  <g opacity=".26" filter="url(#soft)">
+    <circle cx="214" cy="224" r="180" fill="#f4d58d"/>
+    <circle cx="720" cy="334" r="220" fill="#fff7f1"/>
+    <circle cx="450" cy="940" r="280" fill="#4a174e"/>
+  </g>
+  <path d="M187 1120c52-214 118-372 204-475h116c92 108 162 266 208 475H187Z" fill="#120815" opacity=".72"/>
+  <path d="M318 620c28 76 236 74 263-2 112 74 181 238 195 502H119c12-258 84-424 199-500Z" fill="#241727"/>
+  <path d="M318 624c16 58 72 96 132 96 62 0 116-38 132-98l-19-118H338l-20 120Z" fill="url(#skin)"/>
+  <path d="M212 296c-20 196 60 356 238 356 174 0 257-160 238-356-15-154-103-247-238-247S228 142 212 296Z" fill="#170d18"/>
+  <path d="M257 312c0 186 69 306 193 306 125 0 193-120 193-306 0-136-76-232-193-232-116 0-193 96-193 232Z" fill="url(#skin)"/>
+  <path d="M294 335c18-96 72-148 156-148 87 0 139 54 156 148 14 76-5 182-54 225-30 26-70 39-102 39s-72-13-102-39c-49-43-68-149-54-225Z" fill="url(#mask)" opacity=".92"/>
+  <path d="M293 343c31-22 66-31 104-26m109 0c37-4 72 4 105 26" fill="none" stroke="#7b2b75" stroke-width="8" stroke-linecap="round" opacity=".32"/>
+  <path d="M378 430c22 14 49 14 72 0m0 0c23 14 50 14 72 0" fill="none" stroke="#4a174e" stroke-width="8" stroke-linecap="round" opacity=".5"/>
+  <path d="M425 506c20 12 31 12 51 0" fill="none" stroke="#8b5d2d" stroke-width="8" stroke-linecap="round" opacity=".62"/>
+  <path d="M264 292c64-26 96-78 111-160 74 98 156 137 269 134C626 142 551 46 438 49 322 52 244 138 214 276l50 16Z" fill="#120815"/>
+  <path d="M264 292c64-26 96-78 111-160 74 98 156 137 269 134" fill="none" stroke="#f4d58d" stroke-width="8" stroke-linecap="round" opacity=".38"/>
+  <circle cx="324" cy="418" r="9" fill="#7b2b75" opacity=".42"/>
+  <circle cx="580" cy="418" r="9" fill="#7b2b75" opacity=".42"/>
+  <path d="M184 510c42-12 65-42 72-92m388 0c7 50 30 80 72 92" fill="none" stroke="#f4d58d" stroke-width="12" stroke-linecap="round" opacity=".52"/>
+  <g opacity=".68">
+    <circle cx="236" cy="176" r="18" fill="#f4d58d"/>
+    <circle cx="684" cy="202" r="14" fill="#fff7f1"/>
+    <circle cx="646" cy="720" r="10" fill="#f4d58d"/>
+  </g>
+</svg>
